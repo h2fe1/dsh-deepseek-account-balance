@@ -301,7 +301,7 @@ window.__ModuleLoader__.load({
               background: 'transparent',
               color: TERTIARY,
               fontFamily: 'inherit',
-              fontSize: 'var(--dsh-content-font-size-secondary, 13px)',
+              fontSize: 'calc(var(--dsh-content-font-size-secondary, 13px) - 1px)',
               lineHeight: 'calc(20px + var(--dsh-content-font-delta-secondary, 0px))',
               fontVariantNumeric: 'tabular-nums',
               whiteSpace: 'nowrap',
