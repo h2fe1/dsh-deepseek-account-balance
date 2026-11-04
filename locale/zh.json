@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek 账号余额",
+    "description": "在输入框下方上下文用量的右侧显示当前登录的 DeepSeek 账号余额，点击可刷新。"
+  }
+}

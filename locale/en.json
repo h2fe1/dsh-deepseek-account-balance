@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek account balance",
+    "description": "Show the signed-in DeepSeek account's balance beside the composer's context meter; click to refresh."
+  }
+}

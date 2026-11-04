@@ -1,0 +1,57 @@
+{
+  "name": "dsh-deepseek-account-balance",
+  "version": "0.1.0",
+  "description": "A small DeepSeek account balance pill beside the DSH composer's context meter.",
+  "keywords": [
+    "deepseek",
+    "harness",
+    "dsh",
+    "dsh-plugin",
+    "account",
+    "balance",
+    "wallet"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "author": "h2fe1 (https://github.com/h2fe1)",
+  "homepage": "https://github.com/h2fe1/dsh-deepseek-account-balance#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h2fe1/dsh-deepseek-account-balance.git"
+  },
+  "bugs": {
+    "url": "https://github.com/h2fe1/dsh-deepseek-account-balance/issues"
+  },
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "dsh": {
+    "engines": {
+      "dsh": ">=0.2.0-rc.2"
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# dsh-deepseek-account-balance bundle patch: one row mounts both halves — the
+# (empty) host side that keeps the bundle loaded, and the browser side that owns
+# the `shell.bottom` status bar.
+- insert:
+    - id: deepseek-account-balance
+      name: 'dsh-deepseek-account-balance'
+      config: {}
