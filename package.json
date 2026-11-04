@@ -1,6 +1,6 @@
 {
   "name": "dsh-deepseek-account-balance",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A small DeepSeek account balance pill beside the DSH composer's context meter.",
   "keywords": [
     "deepseek",
